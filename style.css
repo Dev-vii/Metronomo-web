@@ -1,0 +1,42 @@
+body{
+    background-color: #1a1a20
+}
+
+.haste {
+
+    & .barra{
+        position: absolute;
+        left: 195px;
+        top: 90px;
+        background-color: #ffff;
+        width: 15px;
+        height: 270px;
+        border-radius: 10px;
+    }
+
+    & .bolinha{
+        position: absolute;
+        left: 167px;
+        top: 350px;
+        background-color: #ffff;
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+    }
+}
+
+.botão1{
+    position: absolute;
+    display: flex;
+    height: 10%;
+    top: 520px;
+
+    & .play{
+        margin-left: 170px;
+    }
+
+    & .pause{
+        margin-left: -75px;
+        display: none;
+    }
+}
