@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metrônomo web</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
     
+    <!-- HASTE -->
     <div class="haste">
         <div class="barra"></div>
         <div class="bolinha"></div>
     </div>
 
+    <!-- PLAY E PAUSE -->
     <div class="botão1">
         <img src="img/play.png" alt="play" class="play" onclick="mudapause()">
         <img src="img/pause.png" alt="pause" class="pause" onclick="mudaplay()">
     </div>
 
+    <!-- VELOCIDADE -->
+    <div class="vel">
+        <img src="img/minus.png" alt="minus">
+        <h1 class="velmedia">60</h1>
+        <img src="img/mais.png" alt="mais">
+    </div>
 
-
+    <!-- LINK SCRIPT -->
     <script src="script.js"></script>
 </body>
 </html>
