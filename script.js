@@ -5,11 +5,11 @@ function mudapause(){
     play_sumir.style.display = "none"
     pause_aparecer.style.display = "block"
     hastemexer.style.rotate = "50deg"
-    hastemexer.style.transition = "3s"
+    hastemexer.style.transition = "1s"
 }
 function mudaplay(){
     play_sumir.style.display = "block"
     pause_aparecer.style.display = "none"
     hastemexer.style.rotate = "0deg"
-    hastemexer.style.transition = "0.5s"
+    hastemexer.style.transition = "0s"
 }

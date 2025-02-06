@@ -2,10 +2,13 @@ body{
     background-color: #1a1a20
 }
 
+/* HASTE */
 .haste {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    left: 680px;
 
     & .barra{
         position: absolute;
@@ -26,6 +29,7 @@ body{
     }
 }
 
+/* BOTÃO PLAY E PAUSE */
 .botão1{
     position: absolute;
     display: flex;
@@ -46,6 +50,7 @@ body{
     }
 }
 
+/* SISTEMA DE VELOCIDADE */
 .vel{
     position: absolute;
     color: #ffff;
