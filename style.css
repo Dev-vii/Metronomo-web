@@ -2,33 +2,6 @@ body{
     background-color: #1a1a20
 }
 
-/* HASTE */
-.haste {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 680px;
-
-    & .barra{
-        position: absolute;
-        top: 90px;
-        background-color: #ffff;
-        width: 15px;
-        height: 270px;
-        border-radius: 10px;
-    }
-
-    & .bolinha{
-        position: absolute;
-        top: 350px;
-        background-color: #ffff;
-        width: 70px;
-        height: 70px;
-        border-radius: 70px;
-    }
-}
-
 /* BOTÃO PLAY E PAUSE */
 .botão1{
     position: absolute;
@@ -47,25 +20,5 @@ body{
         display: none;
         margin-left: 645px;
         width: 70px;
-    }
-}
-
-/* SISTEMA DE VELOCIDADE */
-.vel{
-    position: absolute;
-    color: #ffff;
-    font-family: "Roboto", serif;
-    font-size: 50px;
-    top: 130px;
-    left: 70px;
-    display: flex;
-    height: 50px;
-    gap: 10px;
-    cursor: pointer;
-
-    & #velmedia{
-        cursor: default;
-        font-size: 70px;
-        margin-top: -15px;
     }
 }
