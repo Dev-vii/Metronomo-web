@@ -9,7 +9,7 @@ body{
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    top: 520px;
+    top: 490px;
 
     & .play{
         margin-left: 645px;

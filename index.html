@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,20 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
+
 <body>
-    
-    <!-- PLAY E PAUSE -->
-    <div class="botão1">
-        <img src="img/play.png" alt="play" class="play" onclick="mudapause()">
-        <img src="img/pause.png" alt="pause" class="pause" onclick="mudaplay()">
-    </div>
+    <section>
+        <!-- PLAY E PAUSE -->
+        <div class="botão1">
+            <img src="img/play.png" alt="play" class="play" onclick="mudapause()">
+            <img src="img/pause.png" alt="pause" class="pause" onclick="mudaplay()">
+        </div>
+
+        <audio src="sound/click.mp4" id="click"></audio>
+    </section>
 
     <!-- LINK SCRIPT -->
     <script src="script.js"></script>
 </body>
+
 </html>
